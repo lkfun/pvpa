@@ -1,0 +1,182 @@
+{
+  "download": [
+    {
+      "group": "UTAU调教相关下载",
+      "description": "",
+      "items": [
+        {
+          "name": "UTAU最终汉化版",
+          "address": "http://pan.baidu.com/s/1hqjIwTY",
+          "description": "挂了"
+        }
+      ]
+    },
+    {
+      "group": "常用金坷垃音源和素材",
+      "description": "仅给出原作者配布地址，请自行到原视频简介中下载）",
+      "items": [
+        {
+          "name": "jklex(by farter)",
+          "address": "http://www.bilibili.com/video/av513372/",
+          "description": ""
+        },
+        {
+          "name": "extra-jinkela（by温带气旋）",
+          "address": "https://www.bilibili.com/video/av2527130/",
+          "description": ""
+        },
+        {
+          "name": "金坷垃原版素材包（共3段视频）",
+          "address": "https://pan.baidu.com/s/1sjvBq93",
+          "description": "mp4格式"
+        }
+      ]
+    },
+    {
+      "group": "实用制作工具下载",
+      "items": [
+        {
+          "name": "测曲速工具BPM Analyzer",
+          "address": "https://pan.baidu.com/s/1ntqtI0T"
+        },
+        {
+          "name": "调音软件Melodyne（可调音，也可做音高分析）",
+          "address": "http://pan.baidu.com/s/1ntiSm5z",
+          "description": "挂了"
+        },
+        {
+          "name": "视频压制工具小丸工具箱",
+          "address": "https://pan.baidu.com/s/1hqvnF3Q"
+        }
+      ]
+    },
+    {
+      "group": "音频编辑相关下载",
+      "items": [
+        {
+          "name": "编曲/扒谱软件FL Studio下载",
+          "address": "https://pan.baidu.com/s/1ntqtI0T",
+          "description": "挂了"
+        },
+        {
+          "name": "编曲/扒谱软件FL Studio破解教程",
+          "address": "http://pan.baidu.com/s/1hqB2F3m",
+          "description": "挂了"
+        },
+        {
+          "name": "扒谱软件Voice Capture下载",
+          "address": "http://pan.baidu.com/s/1kTGMpq3",
+          "description": "挂了,VoiceCapture3.0汉化版（FL扒谱实在无能为力再使用，可以输出vsq文件再导入UTAU)"
+        }
+      ]
+    },
+    {
+      "group": "音频编辑软件Adobe Audition下载",
+      "items": [
+        {
+          "name": "Adobe Audition CC 2014原版",
+          "address": "https://pan.baidu.com/s/1eQCSIx8",
+          "description": "注册机见Premiere下方"
+        },
+        {
+          "name": "Adobe Audition CC 2014绿色精简版",
+          "address": "https://pan.baidu.com/s/1kTtfDTP",
+          "description": "（不建议使用，除非正版无法安装或破解），安装简便，占空间较小，但功能略有不完善，容易出BUG并影响正式版破解"
+        },
+        {
+          "name": "Adobe Audition 3.0",
+          "address": "https://pan.baidu.com/s/1ntxLrnj",
+          "description": "32位用户使用，较为稳定占空间较少的经典版本"
+        }
+      ]
+    },
+    {
+      "group": "后期效果器下载",
+      "items": [
+        {
+          "name": "waves9r27效果器包（含注册机及破解）",
+          "address": "http://pan.baidu.com/s/1jG3WCSY",
+          "description": "挂了"
+        },
+        {
+          "name": "臭氧izotope Ozone5母带处理插件",
+          "address": "http://pan.baidu.com/s/1bnEuKTT",
+          "description": "安装到vst目录下"
+        }
+      ]
+    },
+    {
+      "group": "视频软件Adobe Premiere下载",
+      "items": [
+        {
+          "name": "Adobe Premiere CC 2014正版（含注册机及教程）",
+          "address": "https://pan.baidu.com/s/1fQPQY",
+          "description": "挂了"
+        },
+        {
+          "name": "Adobe CC全系列注册机（含破解教程）",
+          "address": "https://pan.baidu.com/s/1qWFqi2g"
+        },
+        {
+          "name": "Adobe Premiere CC 2014绿色精简版",
+          "address": "https://pan.baidu.com/s/1ntGcov3",
+          "description": "不建议使用，除非正版无法安装或破解"
+        },
+        {
+          "name": "Adobe Premiere CS4正版",
+          "address": "http://pan.baidu.com/s/1qW5gJKg",
+          "description": "挂了"
+        },
+        {
+          "name": "Adobe Premiere CS4 注册机及汉化",
+          "address": "https://pan.baidu.com/s/1hqD4AVU"
+        }
+      ]
+    },
+    {
+      "group": "视频特效制作软件Adobe After Effects下载",
+      "items": [
+        {
+          "name": "Adobe After Effects CC 2014正版",
+          "address": "https://pan.baidu.com/s/1sjzFaUh",
+          "description": "注册机见Premiere下方"
+        },
+        {
+          "name": "Adobe After Effects CC2014绿色精简版",
+          "address": "https://pan.baidu.com/s/1ntux3ML",
+          "description": "不建议使用，除非正版无法安装或破解"
+        },
+        {
+          "name": "Adobe After Effects CS4",
+          "address": "https://pan.baidu.com/s/1hqAgLLy",
+          "description": "32位用户使用，含汉化及破解，未实测"
+        }
+      ]
+    },
+    {
+      "group": "视频软件Vegas下载（全部下载链接来自vegas吧）",
+      "items": [
+        {
+          "name": "Vegas Pro 13.0 64bit",
+          "address": "https://pan.baidu.com/s/1sjzFaUh",
+          "description": "挂了"
+        },
+        {
+          "name": "Vegas Pro 13.0 64bit 汉化包",
+          "address": "http://pan.baidu.com/s/1mgL218c",
+          "description": "挂了"
+        },
+        {
+          "name": "Vegas Pro 10.0e 32bit",
+          "address": "http://t.cn/zTt9b19",
+          "description": "挂了"
+        },
+        {
+          "name": "Vegas Pro 10.0e 32bit 汉化包",
+          "address": "http://pan.baidu.com/s/1mgC1kNY",
+          "description": "挂了"
+        }
+      ]
+    }
+  ]
+}
