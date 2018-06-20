@@ -2,7 +2,10 @@
   <div class="hello">
     <f-header></f-header>
     <img src="../assets/pvpa.jpg">
-    <h1>{{ msg }}</h1>
+    <div class="motto">
+      <p><span class="quot">“ </span>{{ description[0] }}<span class="quot"> ”</span></p>
+      <p class="afa">————东仙队长</p>
+    </div>
     <f-footer></f-footer>
   </div>
 </template>
@@ -14,7 +17,8 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '欢迎来到第一产业影音交流协会'
+      msg: '欢迎来到第一产业影音交流协会',
+      description: ['非洲农业不发达，必须要有金坷垃', '日本资源太缺乏，必须要有金坷垃']
     }
   },
   components: {
@@ -42,5 +46,24 @@ a {
 }
 img {
   max-width: 340px;
+}
+.quot{
+  font-size: 50px;
+  line-height: 100px;
+}
+p{
+  font-family:'Kaiti TC Regular'
+}
+.motto{
+  display: block;
+  background-color: #fcfdf5;
+  max-width: 500px;
+  margin: 0 auto ;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.afa{
+  text-align: right;
 }
 </style>

@@ -10,6 +10,9 @@
       <li>
         <router-link to='/about'>关于一产</router-link>
       </li>
+      <li>
+        <a href="https://www.lkfun.cc">lkfun</a>
+      </li>
     </ul>
   </header>
 </template>
