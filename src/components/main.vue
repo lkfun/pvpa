@@ -2,10 +2,7 @@
   <div class="hello">
     <f-header></f-header>
     <img src="../assets/pvpa.jpg">
-    <div class="motto">
-      <p><span class="quot">“ </span>{{ description[0] }}<span class="quot"> ”</span></p>
-      <p class="afa">————东仙队长</p>
-    </div>
+    <h2>{{msg}}</h2>
     <f-footer></f-footer>
   </div>
 </template>
@@ -30,7 +27,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1, h2,h3 {
   font-weight: normal;
 }
 ul {
@@ -53,17 +50,5 @@ img {
 }
 p{
   font-family:'Kaiti TC Regular'
-}
-.motto{
-  display: block;
-  background-color: #fcfdf5;
-  max-width: 500px;
-  margin: 0 auto ;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  border-radius: 5px;
-}
-.afa{
-  text-align: right;
 }
 </style>

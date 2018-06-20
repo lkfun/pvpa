@@ -5,6 +5,7 @@ import Footer from '@/components/footer'
 import Header from '@/components/header'
 import About from '@/components/about'
 import download from '@/components/download'
+import motto from '@/components/motto'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/download',
       name: 'download',
       component: download
+    },
+    {
+      path: '/motto',
+      name: 'motto',
+      component: motto
     }
   ]
 })
