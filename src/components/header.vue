@@ -11,10 +11,7 @@
         <router-link to='/motto'>名言</router-link>
       </li>
       <li>
-        <router-link to='/about'>关于一产</router-link>
-      </li>
-      <li>
-        <a href="https://www.lkfun.cc">lkfun</a>
+        <router-link to='/about'>关于</router-link>
       </li>
     </ul>
   </header>

@@ -69,10 +69,10 @@ export default {
   small{
     color: #999999;
   }
-  h1{
-    color: #007fff;
-  }
   h2{
     margin: 6px auto;
+  }
+  h1{
+    color: #007fff;
   }
 </style>

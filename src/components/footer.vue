@@ -1,7 +1,9 @@
 <template>
   <div class="footer">
     <hr/>
-    <small>Copyright&nbsp;&copy;&nbsp;2018&nbsp;pvpa.lkfun.cc&nbsp;版权所有</small>
+    <small>Copyright&nbsp;&copy;&nbsp;2018&nbsp;pvpa.lkfun.cc&nbsp;版权所有 </small>
+    <br/>
+    <small>主站：<a href="https://www.lkfun.cc">lkfun</a></small>
     <hr/>
   </div>
 </template>
