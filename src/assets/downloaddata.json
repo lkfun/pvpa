@@ -5,6 +5,11 @@
       "description": "",
       "items": [
         {
+          "name": "UTAU最终汉化版,安装版（包含jklex音源）",
+          "address": "https://pan.baidu.com/s/1DVAxVV0JLA07k92cPXo8fw",
+          "description": "密码：gzad，XP以及其以下用户可能需要安装.net framework 2.0"
+        },
+        {
           "name": "UTAU最终汉化版",
           "address": "http://pan.baidu.com/s/1hqjIwTY",
           "description": "挂了"
@@ -40,13 +45,38 @@
           "address": "https://pan.baidu.com/s/1ntqtI0T"
         },
         {
-          "name": "调音软件Melodyne（可调音，也可做音高分析）",
-          "address": "http://pan.baidu.com/s/1ntiSm5z",
-          "description": "挂了"
-        },
-        {
           "name": "视频压制工具小丸工具箱",
           "address": "https://pan.baidu.com/s/1hqvnF3Q"
+        },
+        {
+          "name": "调音软件Melodyne（可调音，也可做音高分析）（补档）",
+          "address": "http://pan.baidu.com/s/1jHITBUm",
+          "description": "其他补档部分请转至本页面的👇👇👇《Melodyne相关》部分👇👇👇"
+        }
+      ]
+    },
+    {
+      "group": "Melodyne相关",
+      "items": [
+        {
+          "name": "Melodyne视频教程",
+          "address": "https://www.bilibili.com/video/av3180474"
+        },
+        {
+          "name": "文字教程，其一",
+          "address": "https://www.bilibili.com/read/cv114292"
+        },
+        {
+          "name": "文字教程，其二",
+          "address": "https://www.bilibili.com/read/cv114528  "
+        },
+        {
+          "name": "文字教程，其三",
+          "address": "https://www.bilibili.com/read/cv123678"
+        },
+        {
+          "name": "文字教程，其四",
+          "address": "https://www.bilibili.com/read/cv135154"
         }
       ]
     },
@@ -94,25 +124,20 @@
       "group": "后期效果器下载",
       "items": [
         {
-          "name": "waves9r27效果器包（含注册机及破解）",
-          "address": "http://pan.baidu.com/s/1jG3WCSY",
-          "description": "挂了"
-        },
-        {
           "name": "臭氧izotope Ozone5母带处理插件",
           "address": "http://pan.baidu.com/s/1bnEuKTT",
           "description": "安装到vst目录下"
+        },
+        {
+          "name": "waves9r27效果器包（含注册机及破解）",
+          "address": "http://pan.baidu.com/s/1jG3WCSY",
+          "description": "挂了"
         }
       ]
     },
     {
       "group": "视频软件Adobe Premiere下载",
       "items": [
-        {
-          "name": "Adobe Premiere CC 2014正版（含注册机及教程）",
-          "address": "https://pan.baidu.com/s/1fQPQY",
-          "description": "挂了"
-        },
         {
           "name": "Adobe CC全系列注册机（含破解教程）",
           "address": "https://pan.baidu.com/s/1qWFqi2g"
@@ -123,13 +148,18 @@
           "description": "不建议使用，除非正版无法安装或破解"
         },
         {
-          "name": "Adobe Premiere CS4正版",
-          "address": "http://pan.baidu.com/s/1qW5gJKg",
+          "name": "Adobe Premiere CS4 注册机及汉化",
+          "address": "https://pan.baidu.com/s/1hqD4AVU"
+        },
+        {
+          "name": "Adobe Premiere CC 2014正版（含注册机及教程）",
+          "address": "https://pan.baidu.com/s/1fQPQY",
           "description": "挂了"
         },
         {
-          "name": "Adobe Premiere CS4 注册机及汉化",
-          "address": "https://pan.baidu.com/s/1hqD4AVU"
+          "name": "Adobe Premiere CS4正版",
+          "address": "http://pan.baidu.com/s/1qW5gJKg",
+          "description": "挂了"
         }
       ]
     },
@@ -156,6 +186,11 @@
     {
       "group": "视频软件Vegas下载（全部下载链接来自vegas吧）",
       "items": [
+        {
+          "name": "Vegas 各版本下载（补）",
+          "address": "https://pan.baidu.com/s/1hMm9zBTTW5DQ3P5LTVWMSQ",
+          "description": "密码: zjwb"
+        },
         {
           "name": "Vegas Pro 13.0 64bit",
           "address": "https://pan.baidu.com/s/1sjzFaUh",

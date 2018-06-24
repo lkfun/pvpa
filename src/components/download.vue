@@ -7,10 +7,10 @@
         <h2>{{item.group}}</h2>
         <small>{{item.description}}</small>
         <div class="group">
-          <div  v-for="(i) in item.items" :key="i.name">
-            <del v-if="i.description&&i.description.includes('挂了')">{{i.name}}</del>
-            <span v-else>{{i.name}}</span>
-            ： <a :href="i.address">{{i.address}}</a>
+          <div class="groupitem" v-for="(i) in item.items" :key="i.name">
+            <del v-if="i.description&&i.description.includes('挂了')">{{i.name}}： <a :href="i.address">{{i.address}}</a></del>
+            <span v-else>{{i.name}}： <a :href="i.address">{{i.address}}</a></span>
+            <br/>
             <small>{{i.description}}</small>
           </div>
         </div>
@@ -25,12 +25,9 @@ import FFooter from './footer'
 import FHeader from './header'
 import downloaddata from '../assets/downloaddata.json'
 export default {
-  name: 'HelloWorld',
   data: function () {
     return {
-      downloaddata,
-      msg: '欢 迎 来 到 新 宝 岛',
-      qqgroups: [{text: '199938498'}, {text: '453620381'}]
+      downloaddata
     }
   },
   components: {
@@ -52,8 +49,12 @@ export default {
     text-align: left;
   }
   .group{
-    padding:20px 20px 50px 10px ;
-    line-height: 30px;
+    padding:20px 20px 50px 30px ;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .groupitem{
+    padding-bottom: 30px;
   }
   ul {
     list-style-type: none;
@@ -74,5 +75,11 @@ export default {
   }
   h1{
     color: #007fff;
+  }
+  del{
+    color:#ddddee;
+  }
+  del a{
+    color:#a9a9dd;
   }
 </style>

@@ -1,10 +1,12 @@
 <template>
   <div class="hello">
     <f-header></f-header>
-    <h1>{{titile}}</h1>
-    <div class="motto" v-for="item in motto" :key="item.name">
-      <p class="motto-p">{{ item.motto }}</p>
-      <p class="afa">————{{item.name}}</p>
+    <div class="download">
+      <h1>{{titile}}</h1>
+      <div class="motto" v-for="item in motto" :key="item.name">
+        <p class="motto-p">{{ item.motto }}</p>
+        <p class="afa">————{{item.name}}</p>
+      </div>
     </div>
     <f-footer></f-footer>
   </div>
@@ -58,4 +60,10 @@ p{
   line-height: 40px;
   font-size: 40px;
  }
+.download{
+  display: block;
+  max-width: 800px;
+  margin: 0 auto ;
+  text-align: left;
+}
 </style>
