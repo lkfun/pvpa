@@ -1,17 +1,13 @@
 <template>
   <div class="hello">
-    <f-header></f-header>
     <img src="../assets/yeshou.jpg">
     <h1>{{ msg }}</h1>
     <p>QQ群:{{ qqgroup1[0] }}</p>
     <p>QQ群:{{ qqgroup1[1] }}</p>
-    <f-footer></f-footer>
   </div>
 </template>
 
 <script>
-import FFooter from './footer'
-import FHeader from './header'
 export default {
   name: 'HelloWorld',
   data: function () {
@@ -19,10 +15,6 @@ export default {
       msg: '欢 迎 来 到 新 宝 岛',
       qqgroup1: ['199938498', '453620381']
     }
-  },
-  components: {
-    FFooter,
-    FHeader
   }
 }
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div class="body">
-    <f-header></f-header>
     <div class="download">
       <h1>下载</h1>
       <div v-for="(item) in downloaddata.download" :key="item.group" >
@@ -16,23 +15,16 @@
         </div>
       </div>
     </div>
-    <f-footer></f-footer>
   </div>
 </template>
 
 <script>
-import FFooter from './footer'
-import FHeader from './header'
 import downloaddata from '../assets/downloaddata.json'
 export default {
   data: function () {
     return {
       downloaddata
     }
-  },
-  components: {
-    FFooter,
-    FHeader
   }
 }
 </script>
@@ -40,6 +32,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   body{
+    position: relative;
     display: block;
   }
   .download{
@@ -69,6 +62,17 @@ export default {
   }
   small{
     color: #999999;
+  }
+  h2:before {
+    content: "📓";
+    color: #6b88ff;
+    position: relative;
+    margin-top: -0.05em;
+    left:-0.2em;
+    padding-right: 0.5em;
+    font-size: 1.2em;
+    line-height: 1;
+    font-weight: bold;
   }
   h2{
     margin: 6px auto;

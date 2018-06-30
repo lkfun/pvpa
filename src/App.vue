@@ -1,14 +1,22 @@
 <template>
   <div id="app">
-    <keep-alive>
+    <f-header></f-header>
+    <transition name="fade" mode="out-in">
       <router-view ></router-view>
-     </keep-alive>
+    </transition>
+    <f-footer></f-footer>
   </div>
 </template>
 
 <script>
+import FFooter from './components/footer'
+import FHeader from './components/header'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    FFooter,
+    FHeader
+  }
 }
 </script>
 
@@ -20,5 +28,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
