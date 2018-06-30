@@ -6,10 +6,13 @@
         <h2>{{item.group}}</h2>
         <small>{{item.description}}</small>
         <div class="group">
-          <div class="groupitem" v-for="(i) in item.items" :key="i.name">
-            <del v-if="i.description&&i.description.includes('挂了')">{{i.name}}： <a :href="i.address">{{i.address}}</a></del>
-            <span v-else>{{i.name}}： <a :href="i.address">{{i.address}}</a></span>
-            <br/>
+          <div class="groupitem" v-if="!i.description||!i.description.includes('不显示')"  v-for="(i) in item.items" :key="i.name">
+            <del v-if="i.description&&i.description.includes('挂了')">{{i.name}}：
+              <a :href="i.address">{{i.address| capitalize}}</a>
+            </del>
+            <span v-else>{{i.name}}：
+              <a :href="i.address">{{i.address| capitalize}}</a>
+            </span>
             <small>{{i.description}}</small>
           </div>
         </div>
@@ -24,6 +27,17 @@ export default {
   data: function () {
     return {
       downloaddata
+    }
+  },
+  filters: {
+    capitalize: function (value) {
+      if (!value) return ''
+      value = value.toString()
+      value = value.replace('https://', '').replace('http://', '')
+      if (value.length > 32) {
+        value = value.substr(0, 32) + '...'
+      }
+      return value
     }
   }
 }
@@ -49,6 +63,17 @@ export default {
   .groupitem{
     padding-bottom: 30px;
   }
+  .groupitem span:before,.groupitem del:before{
+    content: "🔶";
+    color: #6b88ff;
+    position: relative;
+    margin-top: -0.05em;
+    left:-0.2em;
+    padding-right: 0.5em;
+    font-size: 0.5em;
+    line-height: 1;
+    font-weight: bold;
+  }
   ul {
     list-style-type: none;
     padding: 0;
@@ -62,17 +87,17 @@ export default {
   }
   small{
     color: #999999;
+    display:block;
   }
   h2:before {
-    content: "📓";
+    content: "🔷";
     color: #6b88ff;
     position: relative;
     margin-top: -0.05em;
     left:-0.2em;
     padding-right: 0.5em;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1;
-    font-weight: bold;
   }
   h2{
     margin: 6px auto;

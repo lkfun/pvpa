@@ -1,18 +1,19 @@
 <template>
   <header class="header header-fixed-top">
+
     <ul class="nav">
-      <li>
-        <router-link to='/'>首页</router-link>
-      </li>
-      <li>
-        <router-link to='/download'>下载</router-link>
-      </li>
-      <li>
-        <router-link to='/motto'>名言</router-link>
-      </li>
-      <li>
-        <router-link to='/about'>关于</router-link>
-      </li>
+        <li v-bind:class="{ active: $route.path==='/' }">
+          <router-link to='/'>首页</router-link>
+        </li>
+        <li v-bind:class="{ active: $route.path==='/download' }">
+          <router-link to='/download'>下载</router-link>
+        </li>
+        <li v-bind:class="{ active: $route.path==='/motto' }">
+          <router-link to='/motto'>名言</router-link>
+        </li>
+        <li v-bind:class="{ active: $route.path==='/about' }">
+          <router-link to='/about'>关于</router-link>
+        </li>
     </ul>
   </header>
 </template>
@@ -24,6 +25,11 @@ export default {
 </script>
 
 <style scoped>
+  .active{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4598FF;
+    color: #3A3A3A;
+  }
   .header {
     border-bottom: 1px solid #eee;
     box-shadow: 0 1px 3px #eee;
@@ -47,6 +53,8 @@ export default {
     padding: 0em .8em;
     font-size: 1.1em;
     line-height: 1.1em;
+    color: #007fff;
+    text-decoration: none;
   }
   .nav a:hover {
     color: #007fff;

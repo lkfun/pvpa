@@ -1,7 +1,7 @@
 {
   "download": [
     {
-      "group": "UTAU调教相关下载",
+      "group": "UTAU调教相关",
       "description": "",
       "items": [
         {
@@ -12,7 +12,7 @@
         {
           "name": "UTAU最终汉化版",
           "address": "http://pan.baidu.com/s/1hqjIwTY",
-          "description": "挂了"
+          "description": "挂了,不显示"
         }
       ]
     },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "group": "实用制作工具下载",
+      "group": "实用制作工具",
       "items": [
         {
           "name": "测曲速工具BPM Analyzer",
@@ -82,17 +82,27 @@
       ]
     },
     {
-      "group": "音频编辑相关下载",
+      "group": "音频编辑相关",
       "items": [
+        {
+          "name": "FL Studio 12.3",
+          "address": "https://pan.baidu.com/s/1JVANZv0ufVdrGpEZE3NOww ",
+          "description": "密码:s9b7"
+        },
+        {
+          "name": "FL Studio 12 备份",
+          "address": "https://pan.baidu.com/s/1t3zRRP0e0epPMXA98qhxWQ ",
+          "description": "密码:ow4z 未验证是否能正确运行"
+        },
         {
           "name": "编曲/扒谱软件FL Studio下载",
           "address": "https://pan.baidu.com/s/1ntqtI0T",
-          "description": "挂了"
+          "description": "挂了,不显示"
         },
         {
           "name": "编曲/扒谱软件FL Studio破解教程",
           "address": "http://pan.baidu.com/s/1hqB2F3m",
-          "description": "挂了"
+          "description": "挂了,不显示"
         },
         {
           "name": "扒谱软件Voice Capture下载",
@@ -102,7 +112,7 @@
       ]
     },
     {
-      "group": "音频编辑软件Adobe Audition下载",
+      "group": "音频编辑软件Adobe Audition",
       "items": [
         {
           "name": "Adobe Audition CC 2014原版",
@@ -122,7 +132,7 @@
       ]
     },
     {
-      "group": "后期效果器下载",
+      "group": "后期效果器",
       "items": [
         {
           "name": "臭氧izotope Ozone5母带处理插件",
@@ -137,7 +147,7 @@
       ]
     },
     {
-      "group": "视频软件Adobe Premiere下载",
+      "group": "视频软件Adobe Premiere",
       "items": [
         {
           "name": "Adobe CC全系列注册机（含破解教程）",
@@ -154,8 +164,7 @@
         },
         {
           "name": "Adobe Premiere CC 2014正版（含注册机及教程）",
-          "address": "https://pan.baidu.com/s/1fQPQY",
-          "description": "挂了"
+          "address": "https://pan.baidu.com/s/1fQPQY"
         },
         {
           "name": "Adobe Premiere CS4正版",
@@ -165,7 +174,7 @@
       ]
     },
     {
-      "group": "视频特效制作软件Adobe After Effects下载",
+      "group": "视频特效制作软件Adobe After Effects",
       "items": [
         {
           "name": "Adobe After Effects CC 2014正版",
@@ -185,7 +194,8 @@
       ]
     },
     {
-      "group": "视频软件Vegas下载（全部下载链接来自vegas吧）",
+      "group": "视频软件Vegas",
+      "description": "全部下载链接来自vegas吧",
       "items": [
         {
           "name": "Vegas 各版本下载（补）",
@@ -195,22 +205,22 @@
         {
           "name": "Vegas Pro 13.0 64bit",
           "address": "https://pan.baidu.com/s/1sjzFaUh",
-          "description": "挂了"
+          "description": "挂了,不显示"
         },
         {
           "name": "Vegas Pro 13.0 64bit 汉化包",
           "address": "http://pan.baidu.com/s/1mgL218c",
-          "description": "挂了"
+          "description": "挂了,不显示"
         },
         {
           "name": "Vegas Pro 10.0e 32bit",
           "address": "http://t.cn/zTt9b19",
-          "description": "挂了"
+          "description": "挂了,不显示"
         },
         {
           "name": "Vegas Pro 10.0e 32bit 汉化包",
           "address": "http://pan.baidu.com/s/1mgC1kNY",
-          "description": "挂了"
+          "description": "挂了,不显示"
         }
       ]
     }
