@@ -57,7 +57,7 @@ export default {
     text-decoration: none;
   }
   .nav a:hover {
-    color: #007fff;
+    color: rgb(0, 127, 255);
   }
   .nav a:focus {
     color: #007fff;

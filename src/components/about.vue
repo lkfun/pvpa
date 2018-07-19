@@ -1,8 +1,5 @@
 <template>
   <div class="hello">
-    <div class="ifam" v-bind:style="styleObject">
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=35040360&auto=1&height=66"></iframe>
-    </div>
     <div class="yeshouwarp yeshou">
       <div  class="yeshoumask yeshou"></div>
       <div class="yeshou yeshou-blur" v-bind:style="yeshou"></div>
@@ -59,16 +56,6 @@ export default {
   }
   .yeshou-blur{
     filter: blur(10px);
-  }
-  .ifam {
-    width:330px;
-    height: 88px;
-    margin: 0 auto;
-    left:50%;
-    position: absolute;
-    margin-left:-165px;
-    display: 'block';
-    z-index: 1000;
   }
   h1{
     color: #a53015;

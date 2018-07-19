@@ -5,17 +5,20 @@
       <router-view ></router-view>
     </transition>
     <f-footer></f-footer>
+    <f-music></f-music>
   </div>
 </template>
 
 <script>
 import FFooter from './components/footer'
 import FHeader from './components/header'
+import FMusic from './components/music.vue'
 export default {
   name: 'App',
   components: {
     FFooter,
-    FHeader
+    FHeader,
+    FMusic
   }
 }
 </script>
