@@ -19,6 +19,22 @@
       ]
     },
     {
+      "group": "UTAU调教相关",
+      "description": "",
+      "items": [
+        {
+          "name": "UTAU最终汉化版,安装版（包含jklex音源）",
+          "address": "https://pan.baidu.com/s/1DVAxVV0JLA07k92cPXo8fw",
+          "description": ["密码：gzad","XP以及其以下用户可能需要安装.net framework 2.0"]
+        },
+        {
+          "name": "UTAU最终汉化版",
+          "address": "http://pan.baidu.com/s/1hqjIwTY",
+          "description": ["挂了,不显示"]
+        }
+      ]
+    },
+    {
       "group": "常用金坷垃音源和素材",
       "description": "仅给出原作者配布地址，请自行到原视频简介中下载）",
       "items": [
