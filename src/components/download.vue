@@ -6,14 +6,16 @@
         <h2>{{item.group}}</h2>
         <small>{{item.description}}</small>
         <div class="group">
-          <div class="groupitem" v-if="!i.description||!i.description.includes('不显示')"  v-for="(i) in item.items" :key="i.name">
-            <del v-if="i.description&&i.description.includes('挂了')">{{i.name}}：
+          <div class="groupitem" v-if="!i.description||!i.description.toString().includes('不显示')"  v-for="(i) in item.items" :key="i.name">
+            <del v-if="i.description&&i.description.toString().includes('挂了')">{{i.name}}：
               <a :href="i.address">{{i.address| capitalize}}</a>
             </del>
             <span v-else>{{i.name}}：
               <a :href="i.address">{{i.address| capitalize}}</a>
             </span>
-            <small>{{i.description}}</small>
+            <div v-for="(item,index) in i.description" :key="index" >
+              <small>{{item}}</small>
+            </div>
           </div>
         </div>
       </div>
@@ -33,7 +35,7 @@ export default {
     capitalize: function (value) {
       if (!value) return ''
       value = value.toString()
-      value = value.replace('https://', '').replace('http://', '')
+      value = value.replace('https://', '').replace('http://', '').replace('mailto:', '')
       if (value.length > 32) {
         value = value.substr(0, 32) + '...'
       }
