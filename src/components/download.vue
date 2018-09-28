@@ -14,7 +14,7 @@
               <a :href="i.address">{{i.address| capitalize}}</a>
             </span>
             <div v-for="(item,index) in i.description" :key="index" >
-              <small>{{item}}</small>
+              <small>&nbsp;&nbsp;&nbsp;&nbsp;{{item}}</small>
             </div>
           </div>
         </div>
