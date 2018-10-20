@@ -149,6 +149,11 @@
           "description": ["挂了,不显示"]
         },
         {
+          "name": "midi导入utau后出现曲速50000的修复",
+          "address": "https://pvpa.lkfun.cc/fixmidi",
+          "description": [""]
+        },
+        {
           "name": "扒谱软件Voice Capture下载",
           "address": "https://pan.baidu.com/s/1J1kpXqo-uvlj31V8FXts4Q",
           "description": [

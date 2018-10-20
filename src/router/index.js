@@ -6,6 +6,7 @@ import Header from '@/components/header'
 import About from '@/components/about'
 import download from '@/components/download'
 import motto from '@/components/motto'
+import fixmidi from '@/components/fixmidi'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/motto',
       name: 'motto',
       component: motto
+    },
+    {
+      path: '/fixmidi',
+      name: 'fixmidi',
+      component: fixmidi
     }
   ]
 })
