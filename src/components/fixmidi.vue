@@ -1,7 +1,9 @@
 <template>
   <div>
-    <input type="file" @change="uploads">
-    <button @click="uploadAll">uploadAll</button>
+    <p>请上传从<strong>FL Stuido</strong>导出的<strong>midi文件</strong></p>
+    <p>再将修复后的文件<strong>导入UTAU</strong></p>
+    <input type="file" accept=".mid" @change="uploads">
+    <button @click="uploadAll">上传</button>
     <p></p>
   </div>
 </template>
