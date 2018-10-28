@@ -149,7 +149,7 @@
           "description": ["挂了,不显示"]
         },
         {
-          "name": "midi导入utau后出现曲速50000的修复",
+          "name": "midi导入utau后出现曲速50000的修复(试运行)",
           "address": "https://pvpa.lkfun.cc/fixmidi",
           "description": [""]
         },
