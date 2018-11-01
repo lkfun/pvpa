@@ -164,26 +164,6 @@
       ]
     },
     {
-      "group": "音频编辑软件Adobe Audition",
-      "items": [
-        {
-          "name": "Adobe Audition CC 2014原版",
-          "address": "https://pan.baidu.com/s/1eQCSIx8",
-          "description": ["注册机见Premiere下方"]
-        },
-        {
-          "name": "Adobe Audition CC 2014绿色精简版",
-          "address": "https://pan.baidu.com/s/1kTtfDTP",
-          "description": ["不建议使用，除非正版无法安装或破解","安装简便，占空间较小，但功能略有不完善，容易出BUG并影响正式版破解"]
-        },
-        {
-          "name": "Adobe Audition 3.0",
-          "address": "https://pan.baidu.com/s/1ntxLrnj",
-          "description": ["32位用户使用，较为稳定占空间较少的经典版本"]
-        }
-      ]
-    },
-    {
       "group": "后期效果器",
       "items": [
         {
@@ -232,6 +212,26 @@
           "name": "Adobe Premiere CS4正版",
           "address": "http://pan.baidu.com/s/1qW5gJKg",
           "description": ["挂了"]
+        }
+      ]
+    },
+    {
+      "group": "音频编辑软件Adobe Audition",
+      "items": [
+        {
+          "name": "Adobe Audition CC 2014原版",
+          "address": "https://pan.baidu.com/s/1eQCSIx8",
+          "description": ["注册机见Premiere下方"]
+        },
+        {
+          "name": "Adobe Audition CC 2014绿色精简版",
+          "address": "https://pan.baidu.com/s/1kTtfDTP",
+          "description": ["不建议使用，除非正版无法安装或破解","安装简便，占空间较小，但功能略有不完善，容易出BUG并影响正式版破解"]
+        },
+        {
+          "name": "Adobe Audition 3.0",
+          "address": "https://pan.baidu.com/s/1ntxLrnj",
+          "description": ["32位用户使用，较为稳定占空间较少的经典版本"]
         }
       ]
     },
