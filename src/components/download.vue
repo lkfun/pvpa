@@ -8,10 +8,10 @@
         <div class="group">
           <div class="groupitem" v-if="!i.description||!i.description.toString().includes('不显示')"  v-for="(i) in item.items" :key="i.name">
             <del v-if="i.description&&i.description.toString().includes('挂了')">{{i.name}}：
-              <a :href="i.address">{{i.address| capitalize}}</a>
+              <a :href="i.address" target="_blank">{{i.address| capitalize}}</a>
             </del>
             <span v-else>{{i.name}}：
-              <a :href="i.address">{{i.address| capitalize}}</a>
+              <a :href="i.address" target="_blank">{{i.address| capitalize}}</a>
             </span>
             <div v-for="(item,index) in i.description" :key="index" >
               <small>&nbsp;&nbsp;&nbsp;&nbsp;{{item}}</small>
