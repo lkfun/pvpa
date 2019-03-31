@@ -5,6 +5,10 @@
       "description": "😉如果出现链接失效、资源不齐全等问题，请联系我（私信或发邮箱）😉",
       "items": [
         {
+          "name": "A站",
+          "address": "http://www.acfun.cn/u/791849.aspx"
+        },
+        {
           "name": "B站",
           "address": "http://space.bilibili.com/800191"
         },
@@ -13,13 +17,22 @@
           "address": "mailto:a@lkfun.cc"
         },
         {
+          "name": "斗鱼",
+          "address": "https://www.douyu.com/40948"
+        },
+        {
           "name": "QQ群：",
           "address": "http://pvpa.lkfun.cc/about"
         },
         {
           "name": "原教程地址",
           "address": "https://www.bilibili.com/video/av2582478"
+        },
+        {
+          "name": "原评论地址，若认为有帮助，可以点个赞😉",
+          "address": "https://www.bilibili.com/video/av2582478/#reply1138912322"
         }
+
       ]
     },
     {
@@ -189,16 +202,39 @@
       ]
     },
     {
-      "group": "视频软件Adobe Premiere",
+      "group": "Adobe全系列",
       "items": [
+        {
+          "name": "vposy微博",
+          "address": "https://weibo.com/vposy",
+          "description": [
+		"vposy大神常年提供adobe大师版的更新",
+		"如果想下载最新的adobe系列(包括下方提到的Adobe Premiere、Adobe Audition和Adobe After Effects等)，可以访问他的微博置顶"
+		]
+        },
         {
           "name": "Adobe CC全系列注册机（含破解教程）",
           "address": "https://pan.baidu.com/s/1qWFqi2g"
         },
         {
+          "name": "Adobe CS6全系列破解补丁",
+          "address": "https://pan.baidu.com/s/1kVAu12B",
+          "description": ["替换安装路径根目录下的amtilb文件","PS：不同软件有32位和64位的区别，可对比参照原文件大小进行替换：32位1752KB，64位2197KB"]
+        }
+      ]
+    },
+    {
+      "group": "视频软件Adobe Premiere",
+      "items": [
+        {
           "name": "Adobe Premiere CC 2014绿色精简版",
           "address": "https://pan.baidu.com/s/1ntGcov3",
           "description": ["不建议使用，除非正版无法安装或破解"]
+        },
+        {
+          "name": "Adobe Premiere CS6",
+          "address": "https://pan.baidu.com/s/1XpOZ-5JBkFLVGX7zIHyB9w",
+          "description": ["网盘密码：eirv","注册机见上方Adobe全系列分类👆👆👆"]
         },
         {
           "name": "Adobe Premiere CS4 注册机及汉化",
@@ -211,7 +247,7 @@
         {
           "name": "Adobe Premiere CS4正版",
           "address": "http://pan.baidu.com/s/1qW5gJKg",
-          "description": ["挂了"]
+          "description": ["挂了","不显示"]
         }
       ]
     },
@@ -221,7 +257,12 @@
         {
           "name": "Adobe Audition CC 2014原版",
           "address": "https://pan.baidu.com/s/1eQCSIx8",
-          "description": ["注册机见Premiere下方"]
+          "description": ["注册机见上方Adobe全系列分类👆👆👆"]
+        },
+        {
+          "name": "Adobe Audition CS6",
+          "address": "https://pan.baidu.com/s/1mpTPMOrGAcu7Aeg2eOI9SA",
+          "description": ["网盘密码：4fsr","注册机见上方Adobe全系列分类👆👆👆"]
         },
         {
           "name": "Adobe Audition CC 2014绿色精简版",
@@ -241,7 +282,7 @@
         {
           "name": "Adobe After Effects CC 2014正版",
           "address": "https://pan.baidu.com/s/1sjzFaUh",
-          "description": ["注册机见Premiere下方"]
+          "description": ["注册机见上方Adobe全系列分类👆👆👆"]
         },
         {
           "name": "Adobe After Effects CC2014绿色精简版",
