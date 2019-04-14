@@ -11,7 +11,7 @@
               <a :href="i.address" target="_blank">{{i.address| capitalize}}</a>
             </del>
             <span v-else>{{i.name}}：
-              <a :href="i.address" target="_blank">{{i.address| capitalize}}</a>
+              <a :href="i.address" :title="i.address" target="_blank">{{i.address| capitalize}}</a>
             </span>
             <div v-for="(item,index) in i.description" :key="index" >
               <small>&nbsp;&nbsp;&nbsp;&nbsp;{{item}}</small>
