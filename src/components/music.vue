@@ -1,7 +1,7 @@
 <template>
   <div >
     <div class="music" v-bind:style="styleObject">
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=35040360&auto=0&height=32"></iframe>
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1311319145&auto=0&height=32"></iframe>
       <span v-on:click="musicmethod">♬</span>
     </div>
   </div>
@@ -28,8 +28,7 @@ export default {
         left: newValue + 'px'
       })
       var params = {}
-      params.username = 'value1'// 你要传给后台的参数值 key/value
-      this.$axios.get('http://192.168.0.79/lkfunWebService/api/values', params)
+      params.username = 'value1'// 你要传给后台的参数值 key/value//this.$axios.get('http://192.168.0.79/lkfunWebService/api/values', params)
     }
   },
   watch: {
