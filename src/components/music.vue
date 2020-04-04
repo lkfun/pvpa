@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import TweenLite from 'gsap/TweenLite'
+import TweenLite from 'gsap'
 export default {
   name: 'header',
   data () {
@@ -27,8 +27,6 @@ export default {
       TweenLite.to(this.$data.styleObject, 0.5, {
         left: newValue + 'px'
       })
-      var params = {}
-      params.username = 'value1'// 你要传给后台的参数值 key/value//this.$axios.get('http://192.168.0.79/lkfunWebService/api/values', params)
     }
   },
   watch: {
@@ -95,7 +93,6 @@ export default {
   .active a,.nav a:hover,.nav a:focus{
     color: rgba(0, 127, 255, 1);
   }
-
   .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
   }
