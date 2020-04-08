@@ -2,6 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
+  <img src="https://img.shields.io/badge/vue-2.5.2-green.svg" />
   <a href="https://github.com/lkfun/pvpa#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -40,7 +41,7 @@ npm run test
 
 👤 **lkfun**
 
-* Website: lkfun.cc
+* Website: [lkfun.cc](https://www.lkfun.cc)
 * GitHub: [@lkfun](https://github.com/lkfun)
 
 ## 🤝 Contributing
