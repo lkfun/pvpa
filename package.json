@@ -1,7 +1,7 @@
 {
   "name": "pvpa",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "version": "1.1.0",
+  "description": "A Vue.js project 第一产业影音交流协会官网",
   "author": "lkfun",
   "private": true,
   "scripts": {
