@@ -2,11 +2,11 @@
   <div class="body">
     <div class="download">
       <h1>下载</h1>
-      <div v-for="(item) in downloaddata.download" :key="item.group" >
+      <div v-for="(item) in downloaddataComputed.download" :key="item.group" >
         <h2>{{item.group}}</h2>
         <small>{{item.description}}</small>
         <div class="group">
-          <div class="groupitem" v-if="!i.description||!i.description.toString().includes('不显示')"  v-for="(i) in item.items" :key="i.name">
+          <div class="groupitem"  v-for="(i) in item.items" :key="i.name">
             <del v-if="i.description&&i.description.toString().includes('挂了')">{{i.name}}：
               <a :href="i.address" :title="i.address" target="_blank">{{i.address| capitalize(i.qq)}}</a>
             </del>
@@ -26,6 +26,16 @@
 <script>
 import downloaddata from '../assets/downloaddata.json'
 export default {
+  computed: {
+    downloaddataComputed: function () {
+      downloaddata.download.forEach((element, elementIndex) => {
+        element.items.forEach((item, itemIndex) => {
+          downloaddata.download[elementIndex].items = downloaddata.download[elementIndex].items.filter(item => (!item.description || !item.description.toString().includes('不显示')))
+        })
+      })
+      return downloaddata
+    }
+  },
   data: function () {
     return {
       downloaddata

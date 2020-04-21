@@ -7,6 +7,7 @@ import About from '@/components/about'
 import download from '@/components/download'
 import motto from '@/components/motto'
 import fixmidi from '@/components/fixmidi'
+import copyrighted from '@/components/copyrighted'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/fixmidi',
       name: 'fixmidi',
       component: fixmidi
+    },
+    {
+      path: '/copyrighted',
+      name: 'copyrighted',
+      component: copyrighted
     }
   ]
 })
