@@ -1,7 +1,6 @@
 <template>
   <div class="body">
     <div class="download">
-      <h1>下载</h1>
       <div v-for="(item) in downloaddataComputed.download" :key="item.group" >
         <h2>{{item.group}}</h2>
         <small>{{item.description}}</small>

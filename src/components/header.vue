@@ -9,7 +9,7 @@
           <router-link to='/download'>下载</router-link>
         </li>
         <li v-bind:class="{ active: $route.path==='/motto' }">
-          <router-link to='/motto'>名言</router-link>
+          <router-link to='/motto'>名言（大雾）</router-link>
         </li>
         <li v-bind:class="{ active: $route.path==='/about' }">
           <router-link to='/about'>关于</router-link>
@@ -52,6 +52,7 @@ export default {
     display: inline-block;
     padding: 0em .8em;
     font-size: 1.1em;
+    font-weight: bold;
     line-height: 1.1em;
     color: #007fff;
     text-decoration: none;

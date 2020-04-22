@@ -3,7 +3,6 @@
     <p>请上传从<strong>FL Stuido</strong>宏导出的<strong>midi文件</strong></p>
     <p>再将修复后的文件<strong>导入UTAU</strong></p>
     <p>其他渠道获取的midi文件可能无法解析/生成</p>
-    <p>可参考<a :href="address">{{address}}</a> 进行手动修复</p>
     <input type="file" accept=".mid" @change="uploads">
     <button @click="uploadAll">上传</button>
     <p></p>

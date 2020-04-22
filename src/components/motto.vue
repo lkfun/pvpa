@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <div class="download">
-      <h1>{{titile}}</h1>
       <div class="motto" v-for="item in motto" :key="item.name">
         <p class="motto-p">{{ item.motto }}</p>
         <p class="afa">————{{item.name}}</p>
@@ -16,7 +15,6 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      titile: '名人名言（大雾）',
       motto
     }
   }
