@@ -69,34 +69,4 @@ export default {
   .music>span:hover{
     background-color: rgba(0, 127, 255, 0.8);
   }
-  .header-fixed-top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
-  }
-  .nav {
-    float: left;
-  }
-  .nav li {
-    display: inline-block;
-  }
-  .nav a {
-    display: inline-block;
-    padding: 0em .8em;
-    font-size: 1.1em;
-    line-height: 1.1em;
-    color: rgba(0, 127, 255, 0.6);
-    text-decoration: none;
-  }
-  .active a,.nav a:hover,.nav a:focus{
-    color: rgba(0, 127, 255, 1);
-  }
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
-  }
-  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
-  }
 </style>

@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
-    <img src="../assets/pvpa.jpg">
+    <img src="../assets/pvpa.png">
+    <h1>PVPA<small>®</small></h1>
+    <h3>Primary Video Producting Association</h3>
+    <h3>第一产业影音制作协会</h3>
     <h2>{{msg}}</h2>
   </div>
 </template>
@@ -20,7 +23,22 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2,h3 {
-  font-weight: normal;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 46px;
+  font-family: '微软雅黑';
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 11px;
+  font-weight: bold;
+}
+h1>small {
+  font-size: 11px;
 }
 ul {
   list-style-type: none;
