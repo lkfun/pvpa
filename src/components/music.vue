@@ -23,7 +23,6 @@ export default {
     musicmethod: function (data) {
       this.show = !this.show
       var newValue = this.show ? -8 : -298
-      console.info(TweenLite)
       TweenLite.to(this.$data.styleObject, 0.5, {
         left: newValue + 'px'
       })
