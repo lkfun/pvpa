@@ -5,8 +5,9 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import 'babel-polyfill'
+import Icon from 'vue-svg-icon/Icon.vue'
+Vue.component('icon', Icon)
 Vue.config.productionTip = false
-
 axios.defaults.headers.post['Content-Type'] = 'application/json'
 Vue.prototype.$axios = axios
 

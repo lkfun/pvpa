@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img src="../assets/pvpa.png">
+    <icon name="pvpa" :scale="20"></icon>
     <h1>PVPA<small>®</small></h1>
     <h3>Primary Video Producting Association</h3>
     <h3>第一产业影音制作协会</h3>
@@ -10,11 +10,9 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
   data () {
     return {
-      msg: '欢迎来到第一产业影音交流协会',
-      description: ['非洲农业不发达，必须要有金坷垃', '日本资源太缺乏，必须要有金坷垃']
+      msg: '欢迎来到第一产业影音交流协会'
     }
   }
 }
