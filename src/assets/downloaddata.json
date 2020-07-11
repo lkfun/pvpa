@@ -133,6 +133,7 @@
           "name": "FL Studio 12.3",
           "address": "https://pvpa.lkfun.cc/copyrighted",
           "description": [
+            "挂了",
             "请解压至非中文目录，并运行根目录的“部署向导.exe”文件。",
             "如果汉化部署后出现口口口(如菜单栏：文件 口口 添加 口式 口看 口口 工具)的情况，请安装下方字体👇👇👇"
           ]
@@ -147,7 +148,10 @@
         },
         {
           "name": "字体修复（解决FL界面口口口的问题）",
-          "address": "https://pan.baidu.com/share/link?shareid=2878172895&uk=3305999494"
+          "address": "https://pan.baidu.com/s/1XS-Y3c00G5ivU1o4UuGwYA",
+          "description": [
+            "网盘密码:4vyr"
+          ]
         },
         {
           "name": "编曲/扒谱软件FL Studio下载",
@@ -311,7 +315,10 @@
         {
           "name": "Vegas 各版本下载（补）",
           "address": "https://pvpa.lkfun.cc/copyrighted",
-          "description": ["网盘密码: zjwb"]
+          "description": [
+            "挂了",
+            "网盘密码: zjwb"
+          ]
         },
         {
           "name": "Vegas Pro 13.0 64bit",
