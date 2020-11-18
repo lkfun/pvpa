@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <div class="marketwarp market">
+      <h2>FL、VEGAS等无法提供了，抱歉！</h2>
       <div class="market" v-bind:style="market"></div>
     </div>
   </div>

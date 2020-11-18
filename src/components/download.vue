@@ -13,7 +13,7 @@
               <a :href="i.address" :title="i.address" target="_blank">{{i.address| capitalize(i.qq)}}</a>
             </span>
             <div v-for="(item,index) in i.description" :key="index" >
-              <small>&nbsp;&nbsp;&nbsp;&nbsp;{{item}}</small>
+              <small>{{item}}</small>
             </div>
           </div>
         </div>
@@ -63,49 +63,26 @@ export default {
     position: relative;
     display: block;
   }
-  .download{
-    display: block;
-    max-width: 800px;
-    margin: 0 auto ;
-    text-align: left;
-  }
-  .group{
-    padding:20px 20px 50px 30px ;
-    line-height: 20px;
-    font-size: 15px;
-  }
-  .groupitem{
-    padding-bottom: 30px;
-  }
-  .groupitem span:before,.groupitem del:before{
-    content: "🔶";
-    color: #6b88ff;
-    position: relative;
-    margin-top: -0.05em;
-    left:-0.2em;
-    padding-right: 0.5em;
-    font-size: 0.5em;
-    line-height: 1;
-    font-weight: bold;
-  }
   ul {
     list-style-type: none;
     padding: 0;
   }
   li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 1em;
   }
-  a {
-    color: #6b88ff;
+  a,a:visited {
+    color: #474dff;
   }
   small{
     color: #999999;
     display:block;
+    font-size:0.85em;
+    padding: 0.3em 0.1em 0.3em 2em;
   }
   h2:before {
     content: "🔷";
-    color: #6b88ff;
+    color: #474dff;
     position: relative;
     margin-top: -0.05em;
     left:-0.2em;
@@ -114,15 +91,39 @@ export default {
     line-height: 1;
   }
   h2{
-    margin: 6px auto;
+    margin: 0.2em auto;
   }
   h1{
-    color: #007fff;
+    color: #474dff;
   }
   del{
     color:#ddddee;
   }
   del a{
     color:#a9a9dd;
+  }
+  .download{
+    display: block;
+    max-width: 80em;
+    margin: 0 auto ;
+    text-align: left;
+  }
+  .group{
+    padding:1.5em 1.5em 3em 2em;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+  .groupitem{
+    padding-bottom: 2em;
+  }
+  .groupitem span:before,.groupitem del:before{
+    content: "⬜";
+    color: #6b88ff;
+    position: relative;
+    margin-top: -0.05em;
+    left:-0.2em;
+    padding-right: 0.5em;
+    line-height: 1em;
+    font-weight: bold;
   }
 </style>

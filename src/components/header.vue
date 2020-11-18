@@ -9,7 +9,7 @@
           <router-link to='/download'>下载</router-link>
         </li>
         <li v-bind:class="{ active: $route.path==='/motto' }">
-          <router-link to='/motto'>名言（大雾）</router-link>
+          <router-link to='/motto'>名言</router-link>
         </li>
         <li v-bind:class="{ active: $route.path==='/about' }">
           <router-link to='/about'>关于</router-link>
@@ -27,8 +27,7 @@ export default {
 <style scoped>
   .active{
     padding-bottom: 5px;
-    border-bottom: 2px solid #4598FF;
-    color: #3A3A3A;
+    border-bottom: 2px solid #474dff;
   }
   .header {
     border-bottom: 1px solid #eee;
@@ -54,13 +53,13 @@ export default {
     font-size: 1.1em;
     font-weight: bold;
     line-height: 1.1em;
-    color: #007fff;
+    color: #474dff;
     text-decoration: none;
   }
   .nav a:hover {
     color: rgb(0, 127, 255);
   }
   .nav a:focus {
-    color: #007fff;
+    color: #474dff;
   }
 </style>

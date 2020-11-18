@@ -25,7 +25,7 @@ export default {
 <style scoped>
 .motto{
   display: block;
-  background-color: #dfdfdf;
+  background-color: #f1f1f1;
   max-width: 400px;
   margin: 0 10% ;
   padding-left: 30px;
