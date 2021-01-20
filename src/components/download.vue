@@ -92,7 +92,7 @@ export default {
   }
   h2{
     margin: 0.2em auto;
-  }
+   }
   h1{
     color: #474dff;
   }
