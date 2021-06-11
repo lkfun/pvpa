@@ -6,7 +6,7 @@
       "items": [
         {
           "name": "A站",
-          "address": "http://www.acfun.cn/u/791849.aspx"
+          "address": "http://www.acfun.cn/u/791849"
         },
         {
           "name": "B站",
@@ -24,7 +24,6 @@
           "name": "QQ群1",
           "address": "https://jq.qq.com/?_wv=1027&k=5LUqzJ0",
           "qq": "199938498"
-
         },
         {
           "name": "QQ群2",
@@ -39,7 +38,6 @@
           "name": "原评论地址，若认为有帮助，可以点个赞😉",
           "address": "https://www.bilibili.com/video/av2582478/#reply1138912322"
         }
-
       ]
     },
     {
@@ -49,12 +47,17 @@
         {
           "name": "UTAU最终汉化版,安装版（包含jklex音源）",
           "address": "https://pan.baidu.com/s/1DVAxVV0JLA07k92cPXo8fw",
-          "description": ["网盘密码：gzad","XP以及其以下用户可能需要安装.net framework 2.0"]
+          "description": [
+            "网盘密码：gzad",
+            "XP以及其以下用户可能需要安装.net framework 2.0"
+          ]
         },
         {
           "name": "UTAU最终汉化版",
           "address": "http://pan.baidu.com/s/1hqjIwTY",
-          "description": ["挂了,不显示"]
+          "description": [
+            "挂了,不显示"
+          ]
         }
       ]
     },
@@ -65,17 +68,23 @@
         {
           "name": "jklex(by farter)",
           "address": "http://www.bilibili.com/video/av513372/",
-          "description": [""]
+          "description": [
+            ""
+          ]
         },
         {
           "name": "extra-jinkela（by温带气旋）",
           "address": "https://www.bilibili.com/video/av2527130/",
-          "description": [""]
+          "description": [
+            ""
+          ]
         },
         {
           "name": "金坷垃原版素材包（共3段视频）",
           "address": "https://pan.baidu.com/s/1sjvBq93",
-          "description": ["mp4格式"]
+          "description": [
+            "mp4格式"
+          ]
         }
       ]
     },
@@ -95,7 +104,8 @@
           "address": "http://pan.baidu.com/s/1ntiSm5z",
           "description": [
             "挂了",
-            "其他补档部分请转至本页面的👇👇👇《Melodyne相关》部分👇👇👇"
+            "其他补档部分请转至本页面的👇👇👇《Melodyne相关》部分👇👇👇",
+            "不显示"
           ]
         }
       ]
@@ -106,7 +116,9 @@
         {
           "name": "Melodyne视频教程",
           "address": "https://www.bilibili.com/video/av3180474",
-          "description":["👉👉👉Melodyne软件请移步视频简介下载👈👈👈"]
+          "description": [
+            "👉👉👉Melodyne软件请移步视频简介下载👈👈👈"
+          ]
         },
         {
           "name": "文字教程，其一",
@@ -143,7 +155,8 @@
           "address": "https://pan.baidu.com/s/1t3zRRP0e0epPMXA98qhxWQ ",
           "description": [
             "网盘密码:ow4z",
-            "未验证是否能正确运行","挂了,不显示"
+            "未验证是否能正确运行",
+            "挂了,不显示"
           ]
         },
         {
@@ -156,7 +169,9 @@
         {
           "name": "编曲/扒谱软件FL Studio下载",
           "address": "https://pan.baidu.com/s/1ntqtI0T",
-          "description": ["挂了,不显示"]
+          "description": [
+            "挂了,不显示"
+          ]
         },
         {
           "name": "FL Studio破解",
@@ -170,12 +185,16 @@
         {
           "name": "编曲/扒谱软件FL Studio破解教程",
           "address": "http://pan.baidu.com/s/1hqB2F3m",
-          "description": ["挂了,不显示"]
+          "description": [
+            "挂了,不显示"
+          ]
         },
         {
           "name": "midi导入utau后出现曲速50000的修复(试运行)",
           "address": "https://pvpa.lkfun.cc/fixmidi",
-          "description": [""]
+          "description": [
+            ""
+          ]
         },
         {
           "name": "扒谱软件Voice Capture下载",
@@ -193,22 +212,32 @@
         {
           "name": "臭氧izotope Ozone5母带处理插件",
           "address": "http://pan.baidu.com/s/1bnEuKTT",
-          "description": ["安装到vst目录下，不显示"]
+          "description": [
+            "安装到vst目录下，不显示"
+          ]
         },
         {
           "name": "Waves10",
           "address": "https://pan.baidu.com/s/1z2b6-w93A-qoRuLKU3rzAA",
-          "description": ["网盘密码：frg4","解压密码：www.7audio.pro"]
+          "description": [
+            "网盘密码：frg4",
+            "解压密码：www.7audio.pro"
+          ]
         },
         {
           "name": "izotope系列效果器以及各版本 ",
           "address": "https://pan.baidu.com/s/15mx3mfZqNM4dYrhgEVzOyg",
-          "description": ["网盘密码：6pi0"]
+          "description": [
+            "网盘密码：6pi0",
+            "挂了"
+          ]
         },
         {
           "name": "Fabfilter系列效果器 ",
           "address": "https://pan.baidu.com/s/1DJf-UHWV999Ao7pNyCV__Q",
-          "description": ["网盘密码：b0qt"]
+          "description": [
+            "网盘密码：b0qt"
+          ]
         }
       ]
     },
@@ -219,126 +248,9 @@
           "name": "vposy微博",
           "address": "https://weibo.com/vposy",
           "description": [
-		"vposy大神常年提供adobe大师版的更新",
-		"如果想下载最新的adobe系列(包括下方提到的Adobe Premiere、Adobe Audition和Adobe After Effects等)，可以访问他的微博置顶"
-		]
-        },
-        {
-          "name": "Adobe CC2014注册机（含破解教程）",
-          "address": "https://pan.baidu.com/s/1jMBRBl-ygdtN0BmtkOJQxg",
-          "description": ["网盘密码：9kk3 ","可以参照教程利用注册机进行破解，推荐使用xf-adobecc2014.exe注册机"]
-        },
-        {
-          "name": "Adobe CS6全系列破解补丁",
-          "address": "https://pan.baidu.com/s/1kVAu12B",
-          "description": ["替换安装路径根目录下的amtilb文件","PS：不同软件有32位和64位的区别，可对比参照原文件大小进行替换：32位1752KB，64位2197KB"]
-        }
-      ]
-    },
-    {
-      "group": "视频软件Adobe Premiere",
-      "items": [
-        {
-          "name": "Adobe Premiere CC 2014绿色精简版",
-          "address": "https://pan.baidu.com/s/1ntGcov3",
-          "description": ["不建议使用，除非正版无法安装或破解"]
-        },
-        {
-          "name": "Adobe Premiere CS6",
-          "address": "https://pan.baidu.com/s/1XpOZ-5JBkFLVGX7zIHyB9w",
-          "description": ["网盘密码：eirv","注册机见上方Adobe全系列分类👆👆👆"]
-        },
-        {
-          "name": "Adobe Premiere CS4 注册机及汉化",
-          "address": "https://pan.baidu.com/s/1hqD4AVU"
-        },
-        {
-          "name": "Adobe Premiere CC 2014正版（含注册机及教程）",
-          "address": "https://pan.baidu.com/s/1fQPQY"
-        },
-        {
-          "name": "Adobe Premiere CS4正版",
-          "address": "http://pan.baidu.com/s/1qW5gJKg",
-          "description": ["挂了","不显示"]
-        }
-      ]
-    },
-    {
-      "group": "音频编辑软件Adobe Audition",
-      "items": [
-        {
-          "name": "Adobe Audition CC 2014原版",
-          "address": "https://pan.baidu.com/s/1eQCSIx8",
-          "description": ["注册机见上方Adobe全系列分类👆👆👆"]
-        },
-        {
-          "name": "Adobe Audition CS6",
-          "address": "https://pan.baidu.com/s/1mpTPMOrGAcu7Aeg2eOI9SA",
-          "description": ["网盘密码：4fsr","注册机见上方Adobe全系列分类👆👆👆"]
-        },
-        {
-          "name": "Adobe Audition CC 2014绿色精简版",
-          "address": "https://pan.baidu.com/s/1kTtfDTP",
-          "description": ["不建议使用，除非正版无法安装或破解","安装简便，占空间较小，但功能略有不完善，容易出BUG并影响正式版破解"]
-        },
-        {
-          "name": "Adobe Audition 3.0",
-          "address": "https://pan.baidu.com/s/1ntxLrnj",
-          "description": ["32位用户使用，较为稳定占空间较少的经典版本"]
-        }
-      ]
-    },
-    {
-      "group": "视频特效制作软件Adobe After Effects",
-      "items": [
-        {
-          "name": "Adobe After Effects CC 2014正版",
-          "address": "https://pan.baidu.com/s/1sjzFaUh",
-          "description": ["注册机见上方Adobe全系列分类👆👆👆"]
-        },
-        {
-          "name": "Adobe After Effects CC2014绿色精简版",
-          "address": "https://pan.baidu.com/s/1ntux3ML",
-          "description": ["不建议使用，除非正版无法安装或破解"]
-        },
-        {
-          "name": "Adobe After Effects CS4",
-          "address": "https://pan.baidu.com/s/1hqAgLLy",
-          "description": ["32位用户使用，含汉化及破解，未实测"]
-        }
-      ]
-    },
-    {
-      "group": "视频软件Vegas",
-      "description": "全部下载链接来自vegas吧",
-      "items": [
-        {
-          "name": "Vegas 各版本下载（补）",
-          "address": "https://pvpa.lkfun.cc/copyrighted",
-          "description": [
-            "挂了",
-            "网盘密码: zjwb"
+            "vposy大神常年提供adobe大师版的更新",
+            "如果想下载最新的adobe系列，可以访问他的微博置顶"
           ]
-        },
-        {
-          "name": "Vegas Pro 13.0 64bit",
-          "address": "https://pan.baidu.com/s/1sjzFaUh",
-          "description": ["挂了,不显示"]
-        },
-        {
-          "name": "Vegas Pro 13.0 64bit 汉化包",
-          "address": "http://pan.baidu.com/s/1mgL218c",
-          "description": ["挂了,不显示"]
-        },
-        {
-          "name": "Vegas Pro 10.0e 32bit",
-          "address": "http://t.cn/zTt9b19",
-          "description": ["挂了,不显示"]
-        },
-        {
-          "name": "Vegas Pro 10.0e 32bit 汉化包",
-          "address": "http://pan.baidu.com/s/1mgC1kNY",
-          "description": ["挂了,不显示"]
         }
       ]
     }
