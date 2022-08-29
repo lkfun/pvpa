@@ -5,7 +5,6 @@
     </div>
     <h1><del>{{ msg }}</del></h1>
     <p>QQ群:<a :href="qqgroupadd[0]" target="_blank">{{ qqgroup[0] }}</a></p>
-    <p>QQ群:<a :href="qqgroupadd[1]" target="_blank">{{ qqgroup[1] }}</a></p>
   </div>
 </template>
 <script>
@@ -14,7 +13,7 @@ export default {
   data () {
     return {
       msg: '欢迎来到阿斯特莱亚大陆（误）',
-      qqgroup: ['199938498', '453620381'],
+      qqgroup: ['199938498'],
       qqgroupadd: ['https://jq.qq.com/?_wv=1027&k=5LUqzJ0', 'https://jq.qq.com/?_wv=1027&k=5mdqJjQ'],
       isActive: true,
       error: null,

@@ -17,26 +17,9 @@
           "address": "mailto:a@lkfun.cc"
         },
         {
-          "name": "斗鱼",
-          "address": "https://www.douyu.com/40948"
-        },
-        {
-          "name": "QQ群1",
+          "name": "QQ群",
           "address": "https://jq.qq.com/?_wv=1027&k=5LUqzJ0",
           "qq": "199938498"
-        },
-        {
-          "name": "QQ群2",
-          "address": "https://jq.qq.com/?_wv=1027&k=5mdqJjQ",
-          "qq": "453620381"
-        },
-        {
-          "name": "原教程地址",
-          "address": "https://www.bilibili.com/video/av2582478"
-        },
-        {
-          "name": "原评论地址，若认为有帮助，可以点个赞😉",
-          "address": "https://www.bilibili.com/video/av2582478/#reply1138912322"
         }
       ]
     },
@@ -249,7 +232,7 @@
           "address": "https://weibo.com/vposy",
           "description": [
             "vposy大神常年提供adobe大师版的更新",
-            "如果想下载最新的adobe系列，可以访问他的微博置顶"
+            "如果想下载最新的adobe系列，可以访问他的微博置顶。（现在要先关注他，才能看到置顶）"
           ]
         }
       ]

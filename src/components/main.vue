@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <icon name="pvpa" :scale="20"></icon>
-    <h1>PVPA<small>®</small></h1>
-    <h3>Primary Video Producting Association</h3>
-    <h3>第一产业影音制作协会</h3>
+    <h1>LoI<small>®</small></h1>
+    <h3>Land of Illusions</h3>
+    <h3>幻想乡</h3>
     <h2>{{msg}}</h2>
   </div>
 </template>
@@ -12,7 +12,7 @@
 export default {
   data () {
     return {
-      msg: '欢迎来到第一产业影音交流协会'
+      msg: '欢迎来到幻想乡'
     }
   }
 }
