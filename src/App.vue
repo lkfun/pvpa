@@ -39,9 +39,9 @@ export default {
   opacity: 0;
 }
 svg,span,li,h2,hr,a,small,h1,.yeshou{
-  -webkit-filter: grayscale(100%);
+  /*-webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: gray;
+  filter: gray;*/
 }
 </style>
